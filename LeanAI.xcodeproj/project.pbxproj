@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DF047CF6A618C428E2C9B5 /* CloudKitSharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917149823EA1E0E7D132E5D5 /* CloudKitSharingService.swift */; };
+		08B8A9C8509B1B8715AF844D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4822754A4BCA51907B79BD1 /* Extensions.swift */; };
+		0FC966BF19E5E154A5E98732 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D2B4E33F3D8CF5A17E889 /* SharedComponents.swift */; };
+		134F23F50068A4235B645866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA03AB91CC0814D8D6D1060 /* Assets.xcassets */; };
+		1F21DBBFE4498EB50E625AF6 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBA679DFAE8FC7BDDBEAB7A /* NutritionView.swift */; };
+		2D895F06A0B1DCD655140314 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E2A34540E7DE4CCFA2BE6 /* ActivityView.swift */; };
+		3A33627824D844C33E14B3B9 /* StrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDE0E595BFF23A047E6371 /* StrengthView.swift */; };
+		4064F6776B7218F294546A18 /* AddStrengthTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC5450A9C2BF4A7A061F100 /* AddStrengthTestView.swift */; };
+		451FAE3FF123507AF112C190 /* DailyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8059606871BD41C77EEE64 /* DailyLog.swift */; };
+		518433818D34F2E499FAC958 /* FoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9CD1FFD889B11145F6E43 /* FoodEntry.swift */; };
+		67D38BB2B49DFBE18539F576 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E6419608C56A4F35667FC /* Constants.swift */; };
+		69A53AC84A22B342D9E2601B /* PartnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA08106FDE82B1C929F556C0 /* PartnerView.swift */; };
+		9100FA5860025C59981556D3 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3CDCE990A100C4BC53121C /* HealthKitService.swift */; };
+		9A8103B70DF3044F69AAF9E1 /* NutritionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6FAD7C59FC9E7FC603297F /* NutritionCalculator.swift */; };
+		A0553865C10E9D1604E068B0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293713F9EF593F80E02EA58 /* SettingsView.swift */; };
+		A761AABC8FA28B909E8E85E3 /* AIFoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362ACE3F313CE94530A7467E /* AIFoodLogView.swift */; };
+		ACC1522B104F0A9ED3F64CFE /* GroqService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350C4B24AA10C3C97A806A0 /* GroqService.swift */; };
+		B3785FA05BBD67E52DEC1991 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28854E6F3C10B8B867E5E79E /* UserProfile.swift */; };
+		B88A890961BB114D9831D828 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40DA54A8038A8202FD3446E /* InsightsView.swift */; };
+		C158B1E53747A6BFE9D42235 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA11E759FB0514DABE5C167 /* ProgressView.swift */; };
+		D3CA6968B5AA61F036C335B1 /* StrengthTestEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CF0F88CF9FC1CA59A4245 /* StrengthTestEntry.swift */; };
+		D67E2641F1B442ED73767270 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BFCA6A1849BEB319B82D5 /* AddActivityView.swift */; };
+		E67EEC62653655FAC2D9368C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D88FC046CE7B68F0AB230 /* DashboardView.swift */; };
+		E738728C6A4214A653F331AA /* BodyMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F5BA326707827365595B5 /* BodyMeasurement.swift */; };
+		ECDE795365E66EE0A4142251 /* ActivityEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5ED342322C7B511C4F1AB3 /* ActivityEntry.swift */; };
+		EDBF6E8A39ECDD5210978F04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E635ABEA47941174695E41F3 /* ContentView.swift */; };
+		F00B97EA99808BF05B14F1A6 /* ActivityCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F4F1DD9009B8482AE322C /* ActivityCalculator.swift */; };
+		F2CEB9F5073768CE84A67E3C /* LeanAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4808E0094FAB30653D58EB73 /* LeanAIApp.swift */; };
+		FC4FDFD4E9B62B552BA46619 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904F1FE46C0C6775B516499 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DA03AB91CC0814D8D6D1060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E8E9FD9344898EA32BF8EAD /* LeanAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280195660527EB2D5CDACC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28854E6F3C10B8B867E5E79E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		345D88FC046CE7B68F0AB230 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		362ACE3F313CE94530A7467E /* AIFoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFoodLogView.swift; sourceTree = "<group>"; };
+		3EC5450A9C2BF4A7A061F100 /* AddStrengthTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrengthTestView.swift; sourceTree = "<group>"; };
+		4808E0094FAB30653D58EB73 /* LeanAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanAIApp.swift; sourceTree = "<group>"; };
+		562F5BA326707827365595B5 /* BodyMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurement.swift; sourceTree = "<group>"; };
+		5D6FAD7C59FC9E7FC603297F /* NutritionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalculator.swift; sourceTree = "<group>"; };
+		5E3CDCE990A100C4BC53121C /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		5F8059606871BD41C77EEE64 /* DailyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLog.swift; sourceTree = "<group>"; };
+		7344A4E66B3478CB8A405732 /* LeanAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeanAI.entitlements; sourceTree = "<group>"; };
+		754CF0F88CF9FC1CA59A4245 /* StrengthTestEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthTestEntry.swift; sourceTree = "<group>"; };
+		8904F1FE46C0C6775B516499 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8FBA679DFAE8FC7BDDBEAB7A /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		917149823EA1E0E7D132E5D5 /* CloudKitSharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSharingService.swift; sourceTree = "<group>"; };
+		A293713F9EF593F80E02EA58 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A4822754A4BCA51907B79BD1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AC5E2A34540E7DE4CCFA2BE6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B5F9CD1FFD889B11145F6E43 /* FoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEntry.swift; sourceTree = "<group>"; };
+		C17D2B4E33F3D8CF5A17E889 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		CDBDE0E595BFF23A047E6371 /* StrengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthView.swift; sourceTree = "<group>"; };
+		D350C4B24AA10C3C97A806A0 /* GroqService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroqService.swift; sourceTree = "<group>"; };
+		D40DA54A8038A8202FD3446E /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		D61BFCA6A1849BEB319B82D5 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		D83F4F1DD9009B8482AE322C /* ActivityCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCalculator.swift; sourceTree = "<group>"; };
+		D95E6419608C56A4F35667FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E635ABEA47941174695E41F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA08106FDE82B1C929F556C0 /* PartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerView.swift; sourceTree = "<group>"; };
+		EB5ED342322C7B511C4F1AB3 /* ActivityEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEntry.swift; sourceTree = "<group>"; };
+		EDA11E759FB0514DABE5C167 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		007B930C5767C94BBCAD967C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB5ED342322C7B511C4F1AB3 /* ActivityEntry.swift */,
+				562F5BA326707827365595B5 /* BodyMeasurement.swift */,
+				5F8059606871BD41C77EEE64 /* DailyLog.swift */,
+				B5F9CD1FFD889B11145F6E43 /* FoodEntry.swift */,
+				754CF0F88CF9FC1CA59A4245 /* StrengthTestEntry.swift */,
+				28854E6F3C10B8B867E5E79E /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ADA3CF28F1B128D96AB5043 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				345D88FC046CE7B68F0AB230 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3587DAF26504D15891351B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8E9FD9344898EA32BF8EAD /* LeanAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC963430D0BFD06B15A916A /* Strength */ = {
+			isa = PBXGroup;
+			children = (
+				3EC5450A9C2BF4A7A061F100 /* AddStrengthTestView.swift */,
+				CDBDE0E595BFF23A047E6371 /* StrengthView.swift */,
+			);
+			path = Strength;
+			sourceTree = "<group>";
+		};
+		4B20DA466C59FCD51CB4613F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8904F1FE46C0C6775B516499 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5D4D9AF3A06B2EB8E46CCFE7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A293713F9EF593F80E02EA58 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		62C41C058C55096A8B8FD731 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D95E6419608C56A4F35667FC /* Constants.swift */,
+				A4822754A4BCA51907B79BD1 /* Extensions.swift */,
+				C17D2B4E33F3D8CF5A17E889 /* SharedComponents.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		832DF61A7C3BE13C040FE929 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E2A34540E7DE4CCFA2BE6 /* ActivityView.swift */,
+				D61BFCA6A1849BEB319B82D5 /* AddActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		8B4D9CCD422CAC23B14F8CDC /* LeanAI */ = {
+			isa = PBXGroup;
+			children = (
+				1DA03AB91CC0814D8D6D1060 /* Assets.xcassets */,
+				E635ABEA47941174695E41F3 /* ContentView.swift */,
+				280195660527EB2D5CDACC17 /* Info.plist */,
+				7344A4E66B3478CB8A405732 /* LeanAI.entitlements */,
+				4808E0094FAB30653D58EB73 /* LeanAIApp.swift */,
+				007B930C5767C94BBCAD967C /* Models */,
+				E530CD387CC1F0F2B13FD25B /* Services */,
+				62C41C058C55096A8B8FD731 /* Utilities */,
+				B27C430A59F3CB2846A69483 /* Views */,
+			);
+			path = LeanAI;
+			sourceTree = "<group>";
+		};
+		9287727B348DEAB95A6ACD07 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				D40DA54A8038A8202FD3446E /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		9D684D934982BC78A90BFB50 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				362ACE3F313CE94530A7467E /* AIFoodLogView.swift */,
+				8FBA679DFAE8FC7BDDBEAB7A /* NutritionView.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		B27C430A59F3CB2846A69483 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				832DF61A7C3BE13C040FE929 /* Activity */,
+				0ADA3CF28F1B128D96AB5043 /* Dashboard */,
+				9287727B348DEAB95A6ACD07 /* Insights */,
+				9D684D934982BC78A90BFB50 /* Nutrition */,
+				4B20DA466C59FCD51CB4613F /* Onboarding */,
+				C5FCE12184D8B8D9F3345BBF /* Partner */,
+				D508E001AA9814129E410EFE /* Progress */,
+				5D4D9AF3A06B2EB8E46CCFE7 /* Settings */,
+				3CC963430D0BFD06B15A916A /* Strength */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5FCE12184D8B8D9F3345BBF /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				EA08106FDE82B1C929F556C0 /* PartnerView.swift */,
+			);
+			path = Partner;
+			sourceTree = "<group>";
+		};
+		D508E001AA9814129E410EFE /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				EDA11E759FB0514DABE5C167 /* ProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		DEBC08B0AAF33115A0FF5D03 = {
+			isa = PBXGroup;
+			children = (
+				8B4D9CCD422CAC23B14F8CDC /* LeanAI */,
+				3587DAF26504D15891351B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E530CD387CC1F0F2B13FD25B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D83F4F1DD9009B8482AE322C /* ActivityCalculator.swift */,
+				917149823EA1E0E7D132E5D5 /* CloudKitSharingService.swift */,
+				D350C4B24AA10C3C97A806A0 /* GroqService.swift */,
+				5E3CDCE990A100C4BC53121C /* HealthKitService.swift */,
+				5D6FAD7C59FC9E7FC603297F /* NutritionCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A4FA111963B184AAED837B /* LeanAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB2355E53C4BF0721A05F95 /* Build configuration list for PBXNativeTarget "LeanAI" */;
+			buildPhases = (
+				39AE3AAF07E7CA5D7B64EDE9 /* Sources */,
+				8F8EC52B300CF6003E1D4F24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanAI;
+			packageProductDependencies = (
+			);
+			productName = LeanAI;
+			productReference = 1E8E9FD9344898EA32BF8EAD /* LeanAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA3BDD8A0F3FD2DD1C0F485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F8A4FA111963B184AAED837B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 651C4B961A3607BD458D01F1 /* Build configuration list for PBXProject "LeanAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DEBC08B0AAF33115A0FF5D03;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A4FA111963B184AAED837B /* LeanAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8EC52B300CF6003E1D4F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134F23F50068A4235B645866 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AE3AAF07E7CA5D7B64EDE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A761AABC8FA28B909E8E85E3 /* AIFoodLogView.swift in Sources */,
+				F00B97EA99808BF05B14F1A6 /* ActivityCalculator.swift in Sources */,
+				ECDE795365E66EE0A4142251 /* ActivityEntry.swift in Sources */,
+				2D895F06A0B1DCD655140314 /* ActivityView.swift in Sources */,
+				D67E2641F1B442ED73767270 /* AddActivityView.swift in Sources */,
+				4064F6776B7218F294546A18 /* AddStrengthTestView.swift in Sources */,
+				E738728C6A4214A653F331AA /* BodyMeasurement.swift in Sources */,
+				00DF047CF6A618C428E2C9B5 /* CloudKitSharingService.swift in Sources */,
+				67D38BB2B49DFBE18539F576 /* Constants.swift in Sources */,
+				EDBF6E8A39ECDD5210978F04 /* ContentView.swift in Sources */,
+				451FAE3FF123507AF112C190 /* DailyLog.swift in Sources */,
+				E67EEC62653655FAC2D9368C /* DashboardView.swift in Sources */,
+				08B8A9C8509B1B8715AF844D /* Extensions.swift in Sources */,
+				518433818D34F2E499FAC958 /* FoodEntry.swift in Sources */,
+				ACC1522B104F0A9ED3F64CFE /* GroqService.swift in Sources */,
+				9100FA5860025C59981556D3 /* HealthKitService.swift in Sources */,
+				B88A890961BB114D9831D828 /* InsightsView.swift in Sources */,
+				F2CEB9F5073768CE84A67E3C /* LeanAIApp.swift in Sources */,
+				9A8103B70DF3044F69AAF9E1 /* NutritionCalculator.swift in Sources */,
+				1F21DBBFE4498EB50E625AF6 /* NutritionView.swift in Sources */,
+				FC4FDFD4E9B62B552BA46619 /* OnboardingView.swift in Sources */,
+				69A53AC84A22B342D9E2601B /* PartnerView.swift in Sources */,
+				C158B1E53747A6BFE9D42235 /* ProgressView.swift in Sources */,
+				A0553865C10E9D1604E068B0 /* SettingsView.swift in Sources */,
+				0FC966BF19E5E154A5E98732 /* SharedComponents.swift in Sources */,
+				D3CA6968B5AA61F036C335B1 /* StrengthTestEntry.swift in Sources */,
+				3A33627824D844C33E14B3B9 /* StrengthView.swift in Sources */,
+				B3785FA05BBD67E52DEC1991 /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		117AE2DD5AF38AB829417B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0ED17CC4CCA46B06646F697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE0AB8759182F7E38D2BE7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeanAI/LeanAI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXJ8GZVP9D;
+				INFOPLIST_FILE = LeanAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshat.leanai;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D21BEF1014E2D8F466674BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LeanAI/LeanAI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXJ8GZVP9D;
+				INFOPLIST_FILE = LeanAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akshat.leanai;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651C4B961A3607BD458D01F1 /* Build configuration list for PBXProject "LeanAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ED17CC4CCA46B06646F697 /* Debug */,
+				117AE2DD5AF38AB829417B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAB2355E53C4BF0721A05F95 /* Build configuration list for PBXNativeTarget "LeanAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21BEF1014E2D8F466674BC2 /* Debug */,
+				CE0AB8759182F7E38D2BE7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA3BDD8A0F3FD2DD1C0F485 /* Project object */;
+}
